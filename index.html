@@ -1,24 +1,35 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>CSS</title>
-		<link rel="stylesheet" href="style.css">
-	</head>
-	<body>
-		<div>
-			<h1>CSS Practice</h1>
+<head>
+	<title>Aaron Wong</title>
+	<link rel="stylesheet" href="./workshop.css"/>
+</head>
+<body>
+	<div class = "marginEffect">
+		<h1 class = "firstClass"> Aaron Wong</h1>
+		<div class = "nav-links">
+			<a href = "#" class = "nav-item">Home</a>
+			<a href = "project-section" class = "nav-item">Projects</a>
+			<a href = "about-section" class = "nav-item">About Me</a>
+			<a href = "https://github.com" class = "nav-item">GitHub</a>
 		</div>
-
-		<h2>A second heading</h2>
-
-		<h2>Another heading</h2>
-
-		<p>This is a paragraph</p>
-
-		<ul>
-			<li>Home</li>
-			<li>About</li>
-			<li>FAQ</li>
-		</ul>
-	</body>
+	</div>
+	<div class = "centerText middleDiv"/>
+		<h2>hi, i'm aaron! welcome to my personal website!</h2>
+	</div>
+	<div class = "projectsDiv centerText">
+		<h2>Projects</h2>
+		<img id = "project-img" class = "imageEffects" src="https://image.shutterstock.com/image-photo/businessman-searching-big-datadigital-transformation-260nw-1496224217.jpg" />
+		<p id = "project-text">Work in progress.</p>
+	</div>
+	<div id = "about-section" class = "centerText aboutMeDiv"></div>
+		<h2>About Me</h2>
+		<a href = "https://www.linkedin.com/in/nickjsulist/" target = "blank">
+			<img id = "about-me-img" class = "imageEffects" src="https://image.shutterstock.com/image-photo/businessman-searching-big-datadigital-transformation-260nw-1496224217.jpg" />
+		</a>
+		<p>Hello everyone! My name is Aaron and I like dogs. :)
+		</p>
+	<script src="../zenscroll.js"></script>
+	<script type="text/javascript" src = "./example.js"></script>
+</body>
 </html>
