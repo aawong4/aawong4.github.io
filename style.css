@@ -1,0 +1,20 @@
+h1 {
+	font-size: 20px;
+	font-family: sans-serif;
+	text-align: center;
+	text-decoration: underline;
+	text-shadow: 4px 4px 10px blue;
+}
+
+li {
+	/* Style list content */
+	list-style-type: none;
+	float: left;
+	margin-right: 10px;
+}
+
+div {
+	border: 1px solid black;
+	border-radius: 20px;
+	box-shadow: 4px 4px 10px gray;
+}
