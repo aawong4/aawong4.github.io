@@ -60,7 +60,6 @@ body{
 	width: 100%;
 }
 
-
 .nav-links{
 	margin-top: 2.75rem;
 }
@@ -81,6 +80,16 @@ body{
 .about-content{
 	color: #CBCBCB;
 	font-size: 20px
+}
+
+.project-titles{
+	color: white;
+	font-size: 30px;
+}
+
+.project-content{
+	color: white;
+	font-size: 15px;
 }
 
 .container{
